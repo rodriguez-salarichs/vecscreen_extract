@@ -1,13 +1,10 @@
 # vecscreen_extract
 Program extracts a valuable information from an output vecscreen file
 
-vecscreen_statistic README version 0.1
----------------------------
+ version 0.1
+------------
 
 Copyright (C) 2007 Free Software Foundation
-
-
-Program extracts a valuable information from an output vecscreen file
 
 
 Usage: statistic_vecscreen.x -ivf2 file.txt -bin i
@@ -17,7 +14,7 @@ Usage: statistic_vecscreen.x -ivf2 file.txt -bin i
 
 -bin Intervals of histogram (defaults=0.5)
 
-
+Program extracts a valuable information from an output vecscreen file
 The sequence regions are cataloged in weak, moderate,strong and suspect origin according
 to their likelihood to be a vector
 
