@@ -1,8 +1,8 @@
-# vecscreen_extract
-Program extracts a valuable information from an output vecscreen file
+# vecscreen_extract version 0.1
 
- version 0.1
-------------
+Program extracts a valuable information from an output vecscreen file
+---------------------------------------------------------------------
+
 
 Copyright (C) 2007 Free Software Foundation
 
