@@ -1,0 +1,39 @@
+vecscreen_statistic README version 0.1
+---------------------------
+
+Copyright (C) 2007 Free Software Foundation
+
+
+Program extracts a valuable information from an output vecscreen file
+
+
+Usage: statistic_vecscreen.x -ivf2 file.txt -bin i
+
+-vf2 Output file obtained from the vecscreen execution when the option -f in the vecscreen
+     program was defined as 2
+
+-bin Intervals of histogram (defaults=0.5)
+
+
+The sequence regions are cataloged in weak, moderate,strong and suspect origin according
+to their likelihood to be a vector
+
+
+Strong Match to Vector: Strong matches usually indicate that the segment originated from 
+foreign DNA (vector, adapter, linker, or primer) that was attached to the source DNA/RNA 
+during the cloning process.(Expect 1 random match in 1,000,000 queries of length 350 kb.)
+
+
+Moderate Match to Vector: Strong matches usually indicate that the segment originated from 
+foreign DNA (vector, adapter, linker, or primer) that was attached to the source DNA/RNA 
+during the cloning process.(Expect 1 random match in 1,000 queries of length 350 kb.)
+
+
+Weak Match to Vector: Although weak matches often occur by chance, they indicate foreign 
+sequence whenever there is corroborating evidence of contamination.(Expect 1 random match 
+in 40 queries of length 350 kb.)
+
+
+Please refers to the INSTALL file for installation instructions.
+
+
